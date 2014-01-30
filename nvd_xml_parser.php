@@ -59,10 +59,8 @@ if (isset($argv[1])) {
    //parse_this("nvdcve-2004.xml");
    // other possibilities:
    //parse_this("http://static.nvd.nist.gov/feeds/xml/cve/nvdcve-2.0-recent.xml");
-   parse_this("http://nvd.nist.gov/download/nvdcve-2014.xml");
-   //parse_this("http://nvd.nist.gov/download/nvdcve-2004.xml");
-   //parse_this("http://nvd.nist.gov/download/nvdcve-2005.xml");
-   //parse_this("http://nvd.nist.gov/download/nvdcve-2006.xml");
+   //parse_this("http://nvd.nist.gov/download/nvdcve-2014.xml");
+   parse_this("http://nvd.nist.gov/download/nvdcve-recent.xml");
    //
    // The following do not work with vanilla PHP installs 
    // without the wrapper "https" (e.g., MacOS X default install)
